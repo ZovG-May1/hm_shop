@@ -101,6 +101,7 @@ class _MainPageState extends State<MainPage> {
       //教学视频的写法
       body:SafeArea(
         child: IndexedStack(
+          index: _currentIndex,
           children: _getIndexStack(),
         ),
       ),
