@@ -31,6 +31,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # cached_network_image：这是一个非常强大的包，强烈推荐用于显示网络图片。它自动处理了图片的下载、缓存、加载状态显示和错误处理，比 Image.network 更强大。
+  cached_network_image: ^3.2.3
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -44,7 +47,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
